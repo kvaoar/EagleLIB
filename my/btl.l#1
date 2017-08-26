@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -74,10 +74,6 @@
 <package name="TQFP-10X10-52">
 <description>&lt;b&gt;TQFP52&lt;/b&gt;&lt;p&gt;
 Source: www.st.com/stonline/books/pdf/docs/9202.pdf</description>
-<wire x1="-7.4" y1="7.4" x2="7.4" y2="7.4" width="0.1998" layer="39"/>
-<wire x1="7.4" y1="7.4" x2="7.4" y2="-7.4" width="0.1998" layer="39"/>
-<wire x1="-7.4" y1="-7.4" x2="-7.4" y2="7.4" width="0.1998" layer="39"/>
-<wire x1="7.4" y1="-7.4" x2="-7.4" y2="-7.4" width="0.1998" layer="39"/>
 <wire x1="-4.91" y1="-4.91" x2="4.91" y2="-4.91" width="0.2032" layer="51"/>
 <wire x1="4.91" y1="-4.91" x2="4.91" y2="4.91" width="0.2032" layer="51"/>
 <wire x1="4.91" y1="4.91" x2="-4.91" y2="4.91" width="0.2032" layer="51"/>
@@ -276,6 +272,44 @@ Source: www.st.com/stonline/books/pdf/docs/9202.pdf</description>
 </gates>
 <devices>
 <device name="" package="TQFP-10X10-52">
+<connects>
+<connect gate="G$1" pin="!B1" pad="40"/>
+<connect gate="G$1" pin="!B2" pad="38"/>
+<connect gate="G$1" pin="!B3" pad="36"/>
+<connect gate="G$1" pin="!B4" pad="34"/>
+<connect gate="G$1" pin="!B5" pad="32"/>
+<connect gate="G$1" pin="!B6" pad="30"/>
+<connect gate="G$1" pin="!B7" pad="28"/>
+<connect gate="G$1" pin="!B8" pad="26"/>
+<connect gate="G$1" pin="!OEB" pad="45"/>
+<connect gate="G$1" pin="AI1" pad="51"/>
+<connect gate="G$1" pin="AI2" pad="2"/>
+<connect gate="G$1" pin="AI3" pad="3"/>
+<connect gate="G$1" pin="AI4" pad="8"/>
+<connect gate="G$1" pin="AI5" pad="9"/>
+<connect gate="G$1" pin="AI6" pad="14"/>
+<connect gate="G$1" pin="AI7" pad="18"/>
+<connect gate="G$1" pin="AI8" pad="24"/>
+<connect gate="G$1" pin="AO1" pad="50"/>
+<connect gate="G$1" pin="AO2" pad="52"/>
+<connect gate="G$1" pin="AO3" pad="4"/>
+<connect gate="G$1" pin="AO4" pad="6"/>
+<connect gate="G$1" pin="AO5" pad="10"/>
+<connect gate="G$1" pin="AO6" pad="12"/>
+<connect gate="G$1" pin="AO7" pad="16"/>
+<connect gate="G$1" pin="AO8" pad="20"/>
+<connect gate="G$1" pin="BGGND" pad="19"/>
+<connect gate="G$1" pin="BGVCC" pad="17"/>
+<connect gate="G$1" pin="BIAS_VCC" pad="48"/>
+<connect gate="G$1" pin="GND" pad="1 5 7 11 13 15 25 27 29 31 33 35 37 39 41"/>
+<connect gate="G$1" pin="OEA" pad="47"/>
+<connect gate="G$1" pin="OEB" pad="46"/>
+<connect gate="G$1" pin="TCK" pad="44"/>
+<connect gate="G$1" pin="TDI" pad="22"/>
+<connect gate="G$1" pin="TDO" pad="21"/>
+<connect gate="G$1" pin="TMS" pad="42"/>
+<connect gate="G$1" pin="VCC" pad="23 43 49"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
