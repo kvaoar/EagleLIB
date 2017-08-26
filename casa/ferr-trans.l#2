@@ -131,10 +131,10 @@
 <devices>
 <device name="" package="TR1">
 <connects>
-<connect gate="G$1" pin="IN1" pad="IN1"/>
-<connect gate="G$1" pin="IN2" pad="IN2"/>
-<connect gate="G$1" pin="OUT1" pad="OUT1"/>
-<connect gate="G$1" pin="OUT2" pad="OUT2"/>
+<connect gate="G$1" pin="IN1" pad="OUT1"/>
+<connect gate="G$1" pin="IN2" pad="OUT2"/>
+<connect gate="G$1" pin="OUT1" pad="IN1"/>
+<connect gate="G$1" pin="OUT2" pad="IN2"/>
 </connects>
 <technologies>
 <technology name=""/>
